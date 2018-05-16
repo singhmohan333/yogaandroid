@@ -1,4 +1,4 @@
-package com.example.mohan.coffeeapp;
+package com.example.mohan.yogapp;
 
 import android.app.ListActivity;
 import android.content.Intent;
@@ -9,24 +9,24 @@ import android.widget.ListView;
 
 import java.util.List;
 
-public class DrinkCategoryActivity extends ListActivity {
+public class YogaCategoryActivity extends ListActivity {
 
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        ListView listDrinks = getListView();
+        ListView listyoga = getListView();
 
-        ArrayAdapter<Drinks> listAdapter = new ArrayAdapter<Drinks>(
+        ArrayAdapter<Yoga> listAdapter = new ArrayAdapter<Yoga>(
                 this,
                 android.R.layout.simple_list_item_1,
-                Drinks.drinks
+                Yoga.yoga
         );
-        listDrinks.setAdapter(listAdapter);
+        listyoga.setAdapter(listAdapter);
     }
 
     public void onListItemClick(ListView ListView, View itemView, int position, long id){
 
-        Intent intent= new Intent(DrinkCategoryActivity.this, DrinkActivity.class);
+        Intent intent= new Intent(YogaCategoryActivity.this, DetailActivity.class);
       //  intent.putExtra(DrinkActivity.EXTRA_DRINKNO, (int) id);
         startActivity(intent);
     }

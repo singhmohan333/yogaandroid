@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/background_dark"
+
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.mohan.coffeeapp.DrinkActivity"
-    tools:showIn="@layout/activity_drink">
+    tools:context="com.example.mohan.yogapp.DetailActivity"
+    tools:showIn="@layout/activity_yoga">
 
     <TextView
         android:id="@+id/textView"
@@ -16,8 +16,8 @@
         android:layout_below="@+id/imageView2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="64dp"
-        android:text="Coffee"
-        android:textColor="@android:color/background_light"
+        android:text="bharmipranayam"
+        android:textColor="@android:color/black"
         android:textSize="30sp"
         tools:layout_editor_absoluteX="135dp"
         tools:layout_editor_absoluteY="237dp" />
@@ -26,12 +26,11 @@
         android:id="@+id/textView2"
         android:layout_width="286dp"
         android:layout_height="101dp"
-        android:layout_alignLeft="@+id/imageView2"
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/imageView2"
-        android:layout_marginBottom="37dp"
-        android:text="this is my coffee this is my coffee this is my coffee this is my coffee this is my coffee this is my coffee this is my coffee this is my coffee "
-        android:textColor="@android:color/background_light"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="102dp"
+        android:text="kare yog rhe nirog kare yog rhe nirog kare yog rhe nirog kare yog rhe nirog kare yog rhe nirog"
+        android:textColor="@android:color/black"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="34dp"
         tools:layout_editor_absoluteY="313dp" />
@@ -43,7 +42,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="24dp"
-        app:srcCompat="@drawable/cof1"
+        app:srcCompat="@drawable/bharmipranaym"
         tools:layout_editor_absoluteX="55dp"
         tools:layout_editor_absoluteY="35dp" />
 </RelativeLayout>

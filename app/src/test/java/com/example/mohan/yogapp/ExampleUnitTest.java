@@ -1,4 +1,4 @@
-package com.example.mohan.coffeeapp;
+package com.example.mohan.yogapp;
 
 import org.junit.Test;
 
