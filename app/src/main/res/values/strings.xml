@@ -1,16 +1,22 @@
 <resources>
     <string name="app_name">Yoga App</string>
-    <string name="applogo">CoffeeApp</string>
+    <string name="applogo">yog app</string>
 
     <string-array name="options">
-        <item> आसना </item>
-        <item> प्राणायाम</item>
-        <item> खान पान</item>
+        <item> यम</item>
+        <item> नियम</item>
+        <item> आसन </item>
+        <item>प्रत्याहार </item>
+        <item> धारणा </item>
+        <item> ध्यान</item>
+        <item> समाधि</item>
         <item>न्यूज़ </item>
 
 
-
     </string-array>
-    <string name="title_activity_drink">DrinkActivity</string>
+
+
+    <string name="title_activity_yoga"></string>
+    <string name="title_activity_pranayam">Pranayam</string>
 
 </resources>

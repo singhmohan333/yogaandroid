@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.mohan.coffeeapp">
+    package="com.example.mohan.yogapp">
 
     <application
         android:allowBackup="true"
@@ -16,10 +16,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DrinkCategoryActivity"></activity>
+        <activity android:name=".YogaCategoryActivity" />
+        <activity android:name=".Pranayam" />
+
         <activity
-            android:name=".DrinkActivity"
-            android:label="@string/title_activity_drink"
+            android:name=".DetailActivity"
+            android:label="@string/title_activity_yoga"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pranayam"
+            android:label="@string/title_activity_pranayam"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

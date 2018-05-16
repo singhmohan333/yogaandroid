@@ -4,31 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.mohan.coffeeapp.MainActivity">
+    tools:context="com.example.mohan.yogapp.MainActivity">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="200dp"
-        android:layout_height="100dp"
-        android:layout_alignParentStart="true"
+        android:layout_width="297dp"
+        android:layout_height="199dp"
 
         android:layout_alignParentTop="true"
-        android:layout_marginStart="75dp"
-        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
         android:contentDescription="@string/applogo"
         android:src="@drawable/bharmipranaym" />
 
     <ListView
         android:id="@+id/list_options"
-        android:layout_width="282dp"
-        android:layout_height="match_parent"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        style="@style/AppTheme"
+        android:layout_width="133dp"
+        android:layout_height="390dp"
         android:layout_below="@+id/imageView"
-        android:layout_marginLeft="102dp"
-        android:layout_marginStart="102dp"
-        android:layout_marginTop="24dp"
-        android:entries="@array/options">
+        android:layout_centerHorizontal="true"
+        android:entries="@array/options"
+        android:scrollbarSize="4dp">
 
 
     </ListView>
