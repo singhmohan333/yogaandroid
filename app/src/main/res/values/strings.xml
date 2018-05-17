@@ -16,7 +16,9 @@
     </string-array>
 
 
-    <string name="title_activity_yoga"></string>
-    <string name="title_activity_pranayam">Pranayam</string>
+
+
+    <string name="title_activity_yoga">Y</string>
+    <string name="title_activity_pranayam">P</string>
 
 </resources>

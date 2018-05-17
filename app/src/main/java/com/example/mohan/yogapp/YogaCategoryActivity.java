@@ -24,10 +24,10 @@ public class YogaCategoryActivity extends ListActivity {
         listyoga.setAdapter(listAdapter);
     }
 
-    public void onListItemClick(ListView ListView, View itemView, int position, long id){
+    public void onListItemClick(ListView ListView, View itemView, int position, long id) {
 
         Intent intent= new Intent(YogaCategoryActivity.this, DetailActivity.class);
-      //  intent.putExtra(DrinkActivity.EXTRA_DRINKNO, (int) id);
+
         startActivity(intent);
     }
 

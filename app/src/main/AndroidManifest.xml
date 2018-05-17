@@ -17,7 +17,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".YogaCategoryActivity" />
-        <activity android:name=".Pranayam" />
 
         <activity
             android:name=".DetailActivity"

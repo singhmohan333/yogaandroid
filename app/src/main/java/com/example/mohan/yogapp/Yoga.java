@@ -1,8 +1,6 @@
 package com.example.mohan.yogapp;
 
 
-import com.example.mohan.yogapp.R;
-
 public class Yoga {
 
 
@@ -12,7 +10,7 @@ public class Yoga {
 
     public static final Yoga[] yoga = {
             new Yoga("yoga","this is for yog", R.drawable.bharmipranaym ),
-            new Yoga("yog","this is for yog",R.drawable.swastikasana),
+            new Yoga("yog","this is for yog",R.drawable.bharmipranaym),
             new Yoga("onlyyoga","this is for yog",R.drawable.bharmipranaym),
             new Yoga("yog","this is for dyog",R.drawable.bharmipranaym),
 
@@ -23,18 +21,20 @@ public class Yoga {
         this.name=name;
         this.desc=desc;
         this.imageID=imageID;
+
+
     }
      public String getName(){
 
-         return name;
+         return this.name;
      }
     public String getDesc(){
 
-        return desc;
+        return this.desc;
     }
     public int getImageID(){
 
-        return imageID;
+        return this.imageID;
     }
     public String toString(){
         return this.name;
