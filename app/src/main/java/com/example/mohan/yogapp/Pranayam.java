@@ -14,22 +14,30 @@ public class Pranayam extends ListActivity {
         super.onCreate(savedInstanceState);
 
 
-        ListView niyam = getListView();
+        ListView y = getListView();
 
         ArrayAdapter<PranayamItem> listAdapter = new ArrayAdapter<PranayamItem>(
                 this,
                 android.R.layout.simple_list_item_1,
                 PranayamItem.pranayamItems
         );
-        niyam.setAdapter(listAdapter);
+        y.setAdapter(listAdapter);
     }
 
     public void onListItemClick(ListView ListView, View itemView, int position, long id) {
 
         Intent intent = new Intent(Pranayam.this, DetailActivity.class);
 
-        intent.putExtra("id","id");
-        startActivity(intent);
+        if(id==0) {
+            intent.putExtra("image_url", R.drawable.garunasan);
+        }else if(id==2) {
+            {
+            intent.putExtra("image_url", R.drawable.bharmipranaym);
+
+        }
+        if(id==0) {
+
+                startActivity(intent);
 
 
     }

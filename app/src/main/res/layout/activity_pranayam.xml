@@ -21,7 +21,7 @@
     </android.support.design.widget.AppBarLayout>
 
     <include
-        android:id="@+id/niyam"
+        android:id="@+id/y"
         layout="@layout/content_pranayam" />
 
 </RelativeLayout>

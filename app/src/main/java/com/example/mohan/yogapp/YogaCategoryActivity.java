@@ -28,6 +28,13 @@ public class YogaCategoryActivity extends ListActivity {
 
         Intent intent= new Intent(YogaCategoryActivity.this, DetailActivity.class);
 
+        if(id==0) {
+            intent.putExtra("image_url", R.drawable.bharmipranaym);
+        }else {
+            intent.putExtra("image_url", R.drawable.garunasan);
+
+        }
+
         startActivity(intent);
     }
 
