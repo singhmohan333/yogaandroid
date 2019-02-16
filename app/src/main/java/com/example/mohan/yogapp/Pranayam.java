@@ -28,17 +28,19 @@ public class Pranayam extends ListActivity {
 
         Intent intent = new Intent(Pranayam.this, DetailActivity.class);
 
-        if(id==0) {
+        if (id == 0) {
             intent.putExtra("image_url", R.drawable.garunasan);
-        }else if(id==2) {
+        } else if (id == 2) {
             {
-            intent.putExtra("image_url", R.drawable.bharmipranaym);
+                intent.putExtra("image_url", R.drawable.bharmipranaym);
 
-        }
-        if(id==0) {
+            }
+            if (id == 3) {
 
                 startActivity(intent);
 
 
+            }
+        }
     }
 }

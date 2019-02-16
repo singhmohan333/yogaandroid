@@ -18,16 +18,27 @@
         android:src="@drawable/bharmipranaym" />
 
     <ListView
-        
+
         android:id="@+id/list_options"
         style="@style/AppTheme"
-        android:layout_width="133dp"
+        android:layout_width="207dp"
         android:layout_height="390dp"
-        android:layout_below="@+id/imageView"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="82dp"
         android:entries="@array/options"
         android:scrollbarSize="4dp">
 
 
     </ListView>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="115dp"
+        android:layout_height="397dp"
+        android:layout_alignParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="206dp" >
+
+    </android.support.v7.widget.RecyclerView>
+
 </RelativeLayout>
